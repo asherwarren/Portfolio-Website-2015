@@ -1,0 +1,133 @@
+*
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background-color: #003349;
+	font-family: 'Dosis', sans-serif;
+}
+
+.top {
+	content: '';
+	height: 100px;
+}
+
+h1 {
+	display: block;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: 300;
+	text-align: center;
+	width: 250px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 40px
+}
+
+
+.download_button {
+	display: block;
+	color: white;
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 300;
+	text-align: center;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px white;
+	transition: color .3s ease, background-color .3s ease;
+}
+
+.download_button:hover {
+	display: block;
+	color: #003349;
+	background-color: white;
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 300;
+	text-align: center;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px white;
+}
+
+
+.resume {
+	padding-top: 0px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Footer
+
+=============================
+
+*/
+
+
+.contactpage {
+	margin-top: 10%;
+
+}
+
+
+.contactpage_links {
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact_icon {
+  overflow: hidden;
+  text-indent: 200%;
+  white-space: nowrap;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+.contact_icon:nth-child(1) {
+  margin-left: 0px;
+}
+
+.linkedin {
+  background-image: url(../images/icons/linkedin.png);
+}
+
+.behance {
+  background-image: url(../images/icons/behance.png);
+}
+
+.email_icon {
+  background-image: url(../images/icons/email.png);
+}
+
+
+
+
